@@ -113,7 +113,9 @@ will use the 256 degraded color mode."
          (mode-line
           ((t (:foreground ,base1 :background ,base02
                            :box (:line-width 1 :color ,base1)))))
-         (mode-line-buffer-id ((t (:foreground ,base1))))
+         (mode-line-buffer-id
+          ((t (:foreground ,base1 :weight ,bold :background ,base02
+                           :box (:line-width 1 :color ,base1)))))
          (mode-line-inactive
           ((t (:foreground ,base0  :background ,base02
                            :box (:line-width 1 :color ,base02)))))
