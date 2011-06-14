@@ -208,7 +208,7 @@ will use the 256 degraded color mode."
          ;; org
          (org-hide ((t (:foreground ,base03))))
          (org-todo ((t (:foreground ,base03 :background ,red :weight ,bold))))
-         (org-done ((t (:foreground ,green :weight ,bold))))
+         (org-done ((t (:foreground ,base03 :background ,green :weight ,bold))))
          (org-todo-kwd-face ((t (:foreground ,red :background ,base03))))
          (org-done-kwd-face ((t (:foreground ,green :background ,base03))))
          (org-project-kwd-face ((t (:foreground ,violet :background ,base03))))
@@ -288,6 +288,8 @@ will use the 256 degraded color mode."
          ;; Flymake
          (flymake-errline ((t (:background ,orange))))
          (flymake-warnline ((t (:background ,violet))))
+         ;; Which function mode
+         (which-func ((t (:foreground ,green :weight ,bold))))
          ;; whitespace
          (whitespace-empty ((t (:foreground ,red))))
          (whitespace-hspace ((t (:foreground ,orange))))
